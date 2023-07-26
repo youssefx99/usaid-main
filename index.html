@@ -8,38 +8,61 @@
     <link rel="stylesheet" href="css/custom.css">
 </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top main-page-navbar">
-            <div class="container">
-              <a class="navbar-brand" href="#">Usaid</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse ms-auto" id="navbarNavDropdown">
-                <ul class="navbar-nav text-end">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Oppertunities
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
+        <!-----------------------------------------Nav-Bar------------------------------------------>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container d-flex justify-content-between">
+        <a class="navbar-brand" href="#">
+          <img class="logousid" src="images/logousiad.png" alt=""/>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav text-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="./opportunity.html"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Oppertunities
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
 
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Sign up</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
           <!-- Strart Carousel  -->
           <div id="carouselExampleDark" class="carousel carousel-dark slide main-page-carousel" data-bs-ride="carousel">
@@ -79,6 +102,46 @@
             </button>
           </div>
           <!-- End Carousel -->
+
+          <!-- Start Know About Section -->
+          <div class="about p-4">
+            <h2 class="text-center ms-2">
+              Know About
+            </h2>
+            <div class="container d-flex">
+                <div class="col-md-6 col-ms-12 m-2 p-2 text-center border about-box">
+                  <div class="cont p-2">
+                    <p class="">Lorem ipsum, dolor sit amet conse atque nostrum veniam dignissimos? Lorem ipsum, dolor sit amet conse atque nostrum veniam dignissimos?</p>
+                    <h4>Oppertuinites</h4>
+                  </div>
+                </div>
+                <div class="col-md-6 col-ms-12 m-2 p-2 text-center border about-box">
+                  <div class="cont p-2">
+                    <p class="">Lorem ipsum, dolor sit amet conse atque nostrum veniam dignissimos? Lorem ipsum, dolor sit amet conse atque nostrum veniam dignissimos?</p>
+                    <h4>Oppertuinites</h4>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <!-- End Know About Section -->
+
+          <!-- Start Footer -->
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3  border-top container">
+            <p class="col-md-4 mb-0 text-body-secondary">© 2023 Company, Inc</p>
+        
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+              <img class="logousid" src="images/logousiad.png" alt=""/>
+            </a>
+        
+            <ul class="nav col-md-4 justify-content-end">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+          </footer>
+          <!-- End Footer -->
           <script src="js/bootstrap.min.js"></script>
           <script src="js/custom.js"></script>
         </body>

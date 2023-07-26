@@ -34,3 +34,33 @@
   width: 200px;
   height: 50px;
 }
+
+      /********* Home Page **************/
+/*Know about*/
+.about{
+  background-color: #EEE;
+}
+.about-box {
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+.about-box:nth-child(1){
+  background-image: url(../images/about01.jpg);
+}
+.about-box:nth-child(2){
+  background-image: url(../images/about02.jpg);
+}
+.about-box .cont{
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%); */
+  background:rgba(0, 0, 0, 0.5);
+}
+.carousel img{
+  /* height: 450px; */
+}
