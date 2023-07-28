@@ -1,3 +1,7 @@
+:root {
+  --color-blue: rgb(1, 42, 107);
+  --color-red: rgb(195, 16, 58);
+}
 .opport_ {
   padding: 2em;
 }
@@ -19,8 +23,8 @@
 
 /* custom.css */
 .btn-custom-color {
-  background-color: #c3103a;
-  border-color: #c3103a;
+  background-color: var(--color-red);
+  border-color: var(--color-red);
   color: #ffffff; /* Optional: Set the text color to white for better visibility */
 }
 
