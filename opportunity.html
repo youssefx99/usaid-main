@@ -1,292 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <title>Oppertunities</title>
-  </head>
-  <body>
-    <!-----------------------------------------Nav-Bar------------------------------------------>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-      <div class="container d-flex justify-content-between">
-        <a class="navbar-brand" href="index.html">
-          <img class="logousid" src="images/logousiad.png" alt=""/>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav text-end ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="./opportunity.html"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Oppertunities
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sign up</a>
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <title>Oppertunities</title>
+</head>
+
+<body>
+  <!-----------------------------------------Nav-Bar------------------------------------------>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container d-flex justify-content-between">
+      <a class="navbar-brand" href="index.html">
+        <img class="logousid" src="images/logousiad.png" alt="" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./opportunity.html" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Oppertunities
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign up</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!---------------------------------Opportinire Name--------------------------------------->
-    <div class="opport_">
-      <h1>Opprtintire Catogirie Name</h1>
-      <p>See how to apply in internship seccessfully and be the best</p>
     </div>
-    <!----------------------------------Filter System------------------------------------------->
-    <form class="filter_">
-      <div class="row">
-        <div class="col-sm-3">
-          <label for="inputEmail4">Opportunity Name</label>
-          <input
-            type="text"
-            class="form-control"
-            id="inputEmail4"
-            placeholder=""
-          />
+  </nav>
+  <!---------------------------------Opportinire Name--------------------------------------->
+  <div class="opport_">
+    <h1>Opprtintire Catogirie Name</h1>
+    <p>See how to apply in internship seccessfully and be the best</p>
+  </div>
+  <!----------------------------------Filter System------------------------------------------->
+  <form class="filter_">
+    <div class="row">
+      <div class="col-sm-3">
+        <label for="inputEmail4">Opportunity Name</label>
+        <input type="text" class="form-control" id="inputEmail4" placeholder="" />
+      </div>
+      <div class="col-sm-3">
+        <label for="inputPassword4">Field</label>
+        <input type="text" class="form-control" id="inputPassword4" placeholder="" />
+      </div>
+      <div class="col-sm-3">
+        <label for="inputAddress2">City</label>
+        <select class="form-select" aria-label=".form-select-sm example">
+          <option selected="selected">Gharbia</option>
+          <option>Alexandria</option>
+          <option>Ismailia</option>
+          <option>Kafr El Sheikh</option>
+          <option>Aswan</option>
+          <option>Assiut</option>
+          <option>Luxor</option>
+          <option>New Valley</option>
+          <option>North Sinai</option>
+          <option>Beheira</option>
+          <option>Beni Suef</option>
+          <option>Port Said</option>
+          <option>Red Sea</option>
+          <option>Giza</option>
+          <option>Dakahlia</option>
+          <option>South Sinai</option>
+          <option>Damietta</option>
+          <option>Sohag</option>
+          <option>Suez</option>
+          <option>Sharqia</option>
+          <option>Gharbia</option>
+          <option>Fayoum</option>
+          <option>Cairo</option>
+          <option>Qalyubia</option>
+          <option>Qena</option>
+          <option>Marsa Matrouh</option>
+          <option>Monufia</option>
+          <option>Minya</option>
+        </select>
+      </div>
+      <div class="col-sm-3">
+        <label for="inputAddress2">Time of Opportunity</label>
+        <select class="form-select" aria-label=".form-select-sm example">
+          <option>Two Weeks</option>
+          <option>One Month</option>
+          <option>More than one Month</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+          <label class="form-check-label" for="flexRadioDefault1">Paid</label>
         </div>
-        <div class="col-sm-3">
-          <label for="inputPassword4">Field</label>
-          <input
-            type="text"
-            class="form-control"
-            id="inputPassword4"
-            placeholder=""
-          />
-        </div>
-        <div class="col-sm-3">
-          <label for="inputAddress2">City</label>
-          <select class="form-select" aria-label=".form-select-sm example">
-            <option selected="selected">Gharbia</option>
-            <option>Alexandria</option>
-            <option>Ismailia</option>
-            <option>Kafr El Sheikh</option>
-            <option>Aswan</option>
-            <option>Assiut</option>
-            <option>Luxor</option>
-            <option>New Valley</option>
-            <option>North Sinai</option>
-            <option>Beheira</option>
-            <option>Beni Suef</option>
-            <option>Port Said</option>
-            <option>Red Sea</option>
-            <option>Giza</option>
-            <option>Dakahlia</option>
-            <option>South Sinai</option>
-            <option>Damietta</option>
-            <option>Sohag</option>
-            <option>Suez</option>
-            <option>Sharqia</option>
-            <option>Gharbia</option>
-            <option>Fayoum</option>
-            <option>Cairo</option>
-            <option>Qalyubia</option>
-            <option>Qena</option>
-            <option>Marsa Matrouh</option>
-            <option>Monufia</option>
-            <option>Minya</option>
-          </select>
-        </div>
-        <div class="col-sm-3">
-          <label for="inputAddress2">Time of Opportunity</label>
-          <select class="form-select" aria-label=".form-select-sm example">
-            <option>Two Weeks</option>
-            <option>One Month</option>
-            <option>More than one Month</option>
-          </select>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+          <label class="form-check-label" for="flexRadioDefault2">Not Paid</label>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-sm-3">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="radio"
-              name="flexRadioDefault"
-              id="flexRadioDefault1"
-            />
-            <label class="form-check-label" for="flexRadioDefault1">Paid</label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="radio"
-              name="flexRadioDefault"
-              id="flexRadioDefault2"
-              checked
-            />
-            <label class="form-check-label" for="flexRadioDefault2"
-              >Not Paid</label
-            >
-          </div>
+      <div class="col-sm-3">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" />
+          <label class="form-check-label" for="flexRadioDefault3">Online</label>
         </div>
-
-        <div class="col-sm-3">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="radio"
-              name="flexRadioDefault"
-              id="flexRadioDefault3"
-            />
-            <label class="form-check-label" for="flexRadioDefault3"
-              >Online</label
-            >
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="radio"
-              name="flexRadioDefault"
-              id="flexRadioDefault4"
-              checked
-            />
-            <label class="form-check-label" for="flexRadioDefault4"
-              >Offline</label
-            >
-          </div>
-        </div>
-      </div>
-
-      <hr class="h_line" />
-
-      <div class="container d-flex justify-content-center">
-        <button type="submit" class="btn btn-primary btn-custom-color col-lg-1">
-          Filter
-        </button>
-      </div>
-    </form>
-    <!----------------------------------------Cards------------------------------------------->
-    <div class="row row-cols-1 row-cols-md-3 g-4 padding">
-      <div class="col">
-        <div class="card">
-          <img
-            src="images/intern.png"
-            class="card-img-top custom-img-size"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img
-            src="images/4k.jpg"
-            class="card-img-top custom-img-size"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked />
+          <label class="form-check-label" for="flexRadioDefault4">Offline</label>
         </div>
       </div>
     </div>
-    <!------------------------------------Page Navigator-------------------------------------->
-    <nav aria-label="..." class="container d-flex justify-content-center">
-      <ul class="pagination">
-        <li class="page-item disabled">
-          <span class="page-link">Previous</span>
-        </li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item active">
-          <span class="page-link"> 2 </span>
-        </li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item">
-          <a class="page-link" href="#">Next</a>
-        </li>
-      </ul>
-    </nav>
 
-    <!-----------------------------------------Footer----------------------------------------->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/custom.js"></script>
-  </body>
+    <hr class="h_line" />
+
+    <div class="container d-flex justify-content-center">
+      <button type="submit" class="btn btn-primary btn-custom-color col-lg-1">
+        Filter
+      </button>
+    </div>
+  </form>
+  <!----------------------------------------Cards------------------------------------------->
+  <div class="row row-cols-1 row-cols-md-3 g-4 padding">
+    <div class="col">
+      <div class="card">
+        <img src="images/intern.png" class="card-img-top custom-img-size" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit
+            longer.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="images/4k.jpg" class="card-img-top custom-img-size" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit
+            longer.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit
+            longer.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit
+            longer.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------------------------Page Navigator-------------------------------------->
+  <nav aria-label="..." class="container d-flex justify-content-center">
+    <ul class="pagination">
+      <li class="page-item disabled">
+        <span class="page-link">Previous</span>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active">
+        <span class="page-link"> 2 </span>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-----------------------------------------Footer----------------------------------------->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
 </html>
