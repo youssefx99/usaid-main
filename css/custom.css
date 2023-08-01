@@ -2,6 +2,39 @@
   --color-blue: rgb(1, 42, 107);
   --color-red: rgb(195, 16, 58);
 }
+/* Frame Work*/
+.asterisk{
+  position: relative;
+}
+.asterisk::after {
+  content: '*';
+  position: absolute;
+  right: -20px;
+  top: -2px;
+  color: var(--color-red);
+  font-size: 1.25rem;
+}
+.label-move{
+  position: relative;
+}
+.label-move label{
+  position: absolute;
+  font-size: 15px;
+  top: 50%;
+  left: 1.5rem;
+  transform: translateY(-50%);
+  transition: .3s;
+}
+.label-move input:focus + label, .label-move label.up{
+  font-size: 16px;
+  top: -1.15rem;
+  left: .5rem;
+  color: var(--bs-gray) !important
+}
+.label-move input:focus {
+  box-shadow: 0 0  2px var(--color-blue);
+}
+/* Oppunities */
 .opport_ {
   padding: 2em;
 }
@@ -67,4 +100,20 @@
 }
 .carousel img{
   /* height: 450px; */
+}
+
+/* Sign Up Page*/
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .sign-up{
+    width: 720px;
+  }
+}
+.img-default{
+  width: 160px;
+  height: 160px;
+}
+.img-default img{
+  width: 150px;
+ height: 150px;
 }

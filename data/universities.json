@@ -1,0 +1,88 @@
+{
+    "universities": [
+      {
+        "name": "Cairo University",
+        "location": "Giza",
+        "website": "http://www.cu.edu.eg/",
+        "faculties": [
+          {
+            "name": "Faculty of Engineering",
+            "departments": ["Civil Engineering", "Mechanical Engineering", "Electrical Engineering", "Computer Engineering", "Architectural Engineering"]
+          },
+          {
+            "name": "Faculty of Medicine",
+            "departments": ["General Medicine", "Pediatrics", "Surgery", "Anesthesiology", "Radiology"]
+          },
+          {
+            "name": "Faculty of Commerce",
+            "departments": ["Accounting", "Marketing", "Finance", "Business Administration", "Economics"]
+          }
+        ]
+      },
+      {
+        "name": "Alexandria University",
+        "location": "Alexandria",
+        "website": "https://alexu.edu.eg/",
+        "faculties": [
+          {
+            "name": "Faculty of Science",
+            "departments": ["Mathematics", "Physics", "Chemistry", "Biology", "Geology"]
+          },
+          {
+            "name": "Faculty of Arts",
+            "departments": ["History", "Languages", "Philosophy", "Sociology", "Psychology"]
+          },
+          {
+            "name": "Faculty of Engineering",
+            "departments": ["Civil Engineering", "Mechanical Engineering", "Electrical Engineering", "Architectural Engineering"]
+          }
+        ]
+      },
+      {
+        "name": "Ain Shams University",
+        "location": "Cairo",
+        "website": "https://www.asu.edu.eg/",
+        "faculties": [
+          {
+            "name": "Faculty of Pharmacy",
+            "departments": ["Pharmaceutical Chemistry", "Pharmacology", "Pharmacognosy", "Clinical Pharmacy"]
+          },
+          {
+            "name": "Faculty of Law",
+            "departments": ["Private Law", "Public Law", "Criminal Law", "International Law"]
+          }
+        ]
+      },
+      {
+        "name": "Mansoura University",
+        "location": "Mansoura",
+        "website": "https://www.mans.edu.eg/",
+        "faculties": [
+          {
+            "name": "Faculty of Dentistry",
+            "departments": ["Oral Surgery", "Oral Medicine", "Orthodontics", "Pediatric Dentistry"]
+          },
+          {
+            "name": "Faculty of Engineering",
+            "departments": ["Mechanical Engineering", "Electrical Engineering", "Civil Engineering", "Architectural Engineering"]
+          }
+        ]
+      },
+      {
+        "name": "Zagazig University",
+        "location": "Zagazig",
+        "website": "http://www.zu.edu.eg/",
+        "faculties": [
+          {
+            "name": "Faculty of Agriculture",
+            "departments": ["Horticulture", "Agronomy", "Plant Protection", "Soil Science"]
+          },
+          {
+            "name": "Faculty of Veterinary Medicine",
+            "departments": ["Animal Medicine", "Surgery", "Pathology", "Pharmacology"]
+          }
+        ]
+      }
+    ]
+  }
+  
