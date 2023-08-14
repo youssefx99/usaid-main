@@ -155,3 +155,28 @@
   border-radius: 20px;
   overflow: hidden;
 }
+
+/* Login Page */
+.or {
+  position: relative;
+
+}
+.or > span{
+  width: 35px;
+  height: 35px;
+  background-color: var(--color-red);
+  color: #fff;
+  border-radius: 50%;
+  line-height: 35px;
+  display: block;
+}
+.or::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-blue);
+  top: 50%;
+  z-index: -1;
+}
+/* End Login Page */
