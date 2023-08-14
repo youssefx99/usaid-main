@@ -52,7 +52,7 @@ document.querySelectorAll('.label-move input').forEach(ele  => {
 let universitiesData; // Variable to store the fetched universities data
 
 // Load universities data from the JSON file
-fetch('../data/universities.json')
+fetch('usaid-main/data/universities.json')
   .then(response => response.json())
   .then(data => {
     universitiesData = data; // Store the fetched data in the variable
